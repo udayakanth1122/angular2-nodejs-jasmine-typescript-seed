@@ -14,4 +14,4 @@ before_script:
   - gulp inject
   - gulp build
   - gulp test
-  - sudo $(which npm) test
+  - sudo $(type -P npm) test
