@@ -1,5 +1,5 @@
 language: node_js
-sudo: required
+sudo: true
 node_js:
   - "0.10"
 branches:
@@ -15,4 +15,4 @@ before_script:
   - gulp inject
   - gulp build
   - gulp test
-  - npm test
+script: npm test
