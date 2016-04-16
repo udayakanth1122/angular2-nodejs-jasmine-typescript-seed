@@ -17,4 +17,4 @@ before_script:
   - gulp inject
   - gulp build
   - gulp test
-  - npm test
+  - sudo npm test
