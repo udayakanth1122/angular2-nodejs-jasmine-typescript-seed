@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "0.10"
+
+sudo: true
+
 branches:
   only:
     - master
@@ -14,4 +17,4 @@ before_script:
   - gulp inject
   - gulp build
   - gulp test
-  - sudo $(type -P npm) test
+  - npm test
